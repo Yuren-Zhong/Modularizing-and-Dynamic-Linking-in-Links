@@ -1,3 +1,11 @@
+Dynamic loading in Links
+
+This repo is forked from links-lang/links. All work is based on Links developed by the programming language group in University of Edinburgh and is done by with the help of the group.
+In this repo, dynamically load plugins is implemented. Mainly, it supports Links interpreter to load SQL database and library by using flags. Postgresql, mysql and sqlite3 are currently supported, but it's rather easy for users to extend to other SQL database with the API implemented in database.ml. Library provided wraps Ocaml standard library and 
+
+Usage
+
+
 Links: Linking Theory to Practice for the Web
 ---------------------------------------------
 
