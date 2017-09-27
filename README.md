@@ -2,6 +2,7 @@ Dynamic loading in Links
 ------------------------
 
 This repo is forked from links-lang/links. All work is based on Links developed by the programming language group in University of Edinburgh and is done by with the help from the group.
+
 In this repo, dynamically load plugins is implemented. Mainly, it supports Links interpreter to load SQL database and library by using flags. Postgresql, mysql and sqlite3 are currently supported, but it's rather easy for users to extend to other SQL database with the API implemented in database.ml. Library provided wraps Ocaml standard library and functions are loaded as built-in functions. Also, simple API is provided in lib.ml for users to develop their own libraries.
 
 USAGE
@@ -11,8 +12,11 @@ USAGE
 `links -builtin_func=<library_name>` to load library, assuming that library plugins are put in ./plugins/ocamllib before.
 
 note:   
+  
   plugins can be compiled with the command:
-          `ocamlopt -o <plugin_name> -shared <source file>`
+  
+  `ocamlopt -o <plugin_name> -shared <source file>`
+  
   more detailed information can be found in Makefiles in pluglins directory.
 
 Links: Linking Theory to Practice for the Web
