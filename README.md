@@ -13,11 +13,14 @@ USAGE
 
 note:   
   
-  plugins can be compiled with the command:
+  plugins can be compiled with the following command:
   
   `ocamlopt -o <plugin_name> -shared <source file>`
   
   more detailed information can be found in Makefiles in pluglins directory.
+
+
+Original Links README.md
 
 Links: Linking Theory to Practice for the Web
 ---------------------------------------------
