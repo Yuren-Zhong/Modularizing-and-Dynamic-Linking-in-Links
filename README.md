@@ -10,9 +10,10 @@ USAGE
 
 `links -builtin_func=<library_name>` to load library, assuming that library plugins are put in ./plugins/ocamllib before.
 
-note:   plugins can be compiled with the command:
+note:   
+  plugins can be compiled with the command:
           `ocamlopt -o <plugin_name> -shared <source file>`
-        more detailed information can be found in Makefiles in pluglins directory.
+  more detailed information can be found in Makefiles in pluglins directory.
 
 Links: Linking Theory to Practice for the Web
 ---------------------------------------------
