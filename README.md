@@ -1,5 +1,5 @@
-Dynamic loading in Links
-------------------------
+Modularizing and Dynamic Linking in Links
+-----------------------------------------
 
 This repo is forked from links-lang/links. All work is based on Links developed by the programming language group in University of Edinburgh and is done by with the help from the group.
 
