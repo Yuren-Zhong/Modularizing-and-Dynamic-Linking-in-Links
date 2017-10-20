@@ -3,7 +3,7 @@ Modularizing and Dynamic Linking in Links
 
 This repo is forked from links-lang/links. All work is based on Links developed by the programming language group in University of Edinburgh and is done by with the help from the group.
 
-This project mainly modularizes SQL-related databases and standard libraries in the Linx interpreter, allowing it to dynamically load SQL-related databases and libraries as plugins by running Linx interpreter with flags. Postgresql, mysql and sqlite3 are currently supported, but it's rather easy for users to extend other SQL database with the API implemented in database.ml. Library implemented wraps Ocaml standard library and functions are loaded as built-in functions. Also, simple API is provided in lib.ml for users to develop their own libraries.Standard libraries wrap OCaml standard libraries. Also, it provides APIs for users to develop their own plugins.
+This project mainly modularizes SQL-related databases and standard libraries in the Linx interpreter, allowing it to dynamically load SQL-related databases and libraries as plugins by running Linx interpreter with flags. Postgresql, mysql and sqlite3 are currently supported, but it's rather easy for users to extend other SQL database with the API implemented in database.ml. Library implemented wraps Ocaml standard library and functions are loaded as built-in functions. Also, simple API is provided in lib.ml for users to develop their own libraries. Standard libraries wrap OCaml standard libraries. Also, it provides APIs for users to develop their own plugins.
 
 USAGE
 
